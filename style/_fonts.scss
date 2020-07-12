@@ -1,0 +1,29 @@
+$font-family: (
+    first: montserrat,
+);
+
+@function font-family($font-family-chose){
+    @return map-get($font-family , $font-family-chose )
+}
+$font-size: (
+    small: calc(8px + 6 * ((100vw - 320px) / 680)),
+    medium: calc(16px + 6 * ((100vw - 320px) / 680)),
+    large: calc(24px + 6 * ((100vw - 320px) / 680)),
+    vlarge: calc(32px + 6 * ((100vw - 320px) / 680)),
+    big: calc(48px + 6 * ((100vw - 320px) / 680)),
+    title: calc(72px + 6 * ((100vw - 320px) / 680)), 
+);
+@function font-size($font-size-chose){
+    @return map-get($font-size , $font-size-chose )
+}
+$font-size-mobile: (
+    small: calc(6px + 6 * ((100vw - 320px) / 680)),
+    medium: calc(12px + 6 * ((100vw - 320px) / 680)),
+    large: calc(18px + 6 * ((100vw - 320px) / 680)),
+    vlarge: calc(22px + 6 * ((100vw - 320px) / 680)),
+    big: calc(34px + 6 * ((100vw - 320px) / 680)),
+    title: calc(48px + 6 * ((100vw - 320px) / 680)), 
+);
+@function font-size-mobile($font-size-mobile-chose){
+    @return map-get($font-size-mobile , $font-size-mobile-chose )
+}

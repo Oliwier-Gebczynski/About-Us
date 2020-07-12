@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Oliwier Gębczyński">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>SH</title>
+</head>
+
+<body>
+    <div class="container">
+        <section class="firstPage">
+            <header>
+                <figure><img src="/photos/logo.png"></figure>
+                <nav>
+                    <ul>
+                        <li><a href="wp.pl">HOME</a></li>
+                        <li><a>ABOUT US</a></li>
+                        <li><a>PROJECTS</a></li>
+                        <li><a>CONTACT</a></li>
+                    </ul>
+                    <div href="#" class="burger_btn">
+                        <div class="line"></div>
+                    </div>
+                </nav>
+                <div class="mobile_menu">
+                    <div class="close_btn">
+
+                        <span class="close_line"></span>
+
+                    </div>
+                    <div class="mobile_content">
+                        <a href="#">Home</a>
+                        <a href="#">About Us</a>
+                        <a href="#">Projects</a>
+                        <a href="#">Contact</a>
+                    </div>
+                </div>
+                <script src="/js/burger.js"></script>
+            </header>
+            <main>
+                <article>
+                    <h1>Hello,</h1>
+                    <p>We are young web developers</p>
+                </article>
+            </main>
+        </section>
+        <section class="content">
+            <section class="content__aboutUs">
+                <h1>ABOUT US</h1>
+                <article>
+                    <h2>"It is never late to learn"</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, blanditiis aliquid et eveniet
+                        doloribus corporis mollitia vel neque voluptas a saepe perferendis voluptatem eaque reiciendis
+                        facilis dolorum necessitatibus in quos! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Assumenda, praesentium aspernatur quas facilis dolor voluptates distinctio aut neque sit iure
+                        culpa
+                        omnis expedita. Reprehenderit dolorem quis odio corrupti, asperiores obcaecati! Lorem ipsum
+
+                    </p>
+                </article>
+            </section>
+            <section class="content__team">
+                <section class="slides">
+                    <div class="slide current">
+                        <section class="osoba" id="active">
+                            <h2>TEAM</h2>
+                            <h1>Meet our team</h1>
+                        </section>
+                    </div>
+                    <div class="slide">
+                        <section class="osoba" id="wojtek">
+                            <img src="/photos/wojtek.jpg" alt="Zdjęcie Wojtka">
+                            <article>
+                                <h1>Wojtek Dąbrowski</h1>
+                                <p>Team Support</p>
+                            </article>
+                        </section>
+                    </div>
+                    <div class="slide">
+                        <section class="osoba" id="oskar">
+                            <img src="/photos/oskar.jpg" alt="Zdjęcie Osakara">
+                            <article>
+                                <h1>Oskar Ukleja</h1>
+                                <p>Backend developer</p>
+                            </article>
+                        </section>
+                    </div>
+                    <div class="slide ">
+                        <section class="osoba" id="oliwier">
+                            <img src="/photos/oliwier.jpg" alt="Zdjęcie Oliwiera">
+                            <article>
+                                <h1>Oliwier Gębczyński</h1>
+                                <p>Design & Frontend developer</p>
+                            </article>
+                        </section>
+                    </div>
+                </section>
+                <div class="buttons">
+                    <button id="prev"><i class="fa fa-angle-left"></i></button>
+                    <button id="next"><i class="fa fa-angle-right"></i></button>
+                </div>
+
+            </section>
+            <section class="content__technologies">
+                <h2>TECHNOLOGIES</h2>
+                <aside class="icons">
+                    <img src="/photos/html.png">
+                    <img src="/photos/css.png">
+                    <img src="/photos/sass.png">
+                    <img src="/photos/js.png">
+                </aside>
+                <article>
+                    <p>In the future we want to learn <span>JavaScript</span> framework</p>
+                </article>
+            </section>
+            <section class="content__projects">
+                <h1>PROJECTS</h1>
+                <section class="projects">
+                    <a href="#" id="japanArticle">
+                        <article>
+                            <h3>Japan Pro</h3>
+                            <h4>Read more</h4>
+                        </article>
+                    </a>
+                    <a href="#" id="oskarArticle">
+                        <article>
+                            <h3>Japan Pro</h3>
+                            <h4>Read more</h4>
+                        </article>
+                    </a>
+                    <a href="#" id="wojtekArticle">
+                        <article>
+                            <h3>Japan Pro</h3>
+                            <h4>Read more</h4>
+                        </article>
+                    </a>
+                </section>
+            </section>
+            <section class="content__contact">
+                <h1>CONTACT</h1>
+                <section class="socials">
+                    <h3>Here you can find us:</h3>
+                    <section class="content_contact__social">
+                        <a><i class="fa fa-facebook-official"></i></a>
+                        <a><i class="fa fa-instagram"></i></a>
+                        <a><i class="fa fa-twitter-square"></i></a>
+                        <a><i class="fa fa-behance"></i></a>
+                    </section>
+                </section>
+                <form>
+                    <h1>Send us a message</h1>
+                    <input type="email" id="email" autocomplete="off" required placeholder="Email">
+                    <textarea id="msg" placeholder="Your message" required></textarea>
+                    <input type="submit" vlaue="Send" id="send">
+                </form>
+            </section>
+            <footer>
+                <figure><img src="./photos/logo.png"></figure>
+                <section class="content_footer__social">
+                    <a><i class="fa fa-facebook-official"></i></a>
+                    <a><i class="fa fa-instagram"></i></a>
+                    <a><i class="fa fa-twitter-square"></i></a>
+                    <a><i class="fa fa-behance"></i></a>
+                </section>
+                <p>&copy; Simple & Harmonny, All rights reserved.</p>
+            </footer>
+        </section>
+    </div>
+    <script src="./js/teamSlider.js"></script>
+</body>
+
+</html>

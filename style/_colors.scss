@@ -1,0 +1,9 @@
+$colors: (
+    background: rgba(52, 52, 52, 1),
+    primary: rgba(139, 168, 136, 1),
+    jsyellow: rgba(247, 223, 30, 1),
+);
+
+@function color($color-name){
+    @return map-get($colors , $color-name )
+}
